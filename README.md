@@ -12,4 +12,5 @@ The below images are in order, reconstructed coupler curves using 22 Fourier Des
 ![image](https://user-images.githubusercontent.com/99061771/229412420-da8bb82f-5f8f-4cc0-bd13-82e0a8b48932.png)
 ![image](https://user-images.githubusercontent.com/99061771/229412468-cfab0709-678d-4865-a84e-4f97af8eb72f.png)
 
-
+How to use wavedec to extract wavelet descriptors: https://pywavelets.readthedocs.io/en/latest/ref/dwt-discrete-wavelet-transform.html
+How to extract fourier descriptors (the math behind it): https://www.math.uci.edu/icamp/summer/research_11/bhonsle/Fourier_descriptor.pdf
