@@ -7,7 +7,9 @@ Here is the drive link to the images of the synthesized coupler curves of the me
 Below are images of the matrices I used for each mechanism to denote which joints are connected by links, as well as the different topologies I used for the four-bar, six-bar, and eight-bar linkage system, visualized on the motiongen.io software.
 
 ![image](https://user-images.githubusercontent.com/99061771/229416261-6170f0ed-e12c-44e3-8f34-22247ff2b2ee.png)
+
 ![image](https://user-images.githubusercontent.com/99061771/229416289-8f3db740-223e-45aa-9dc8-a48c611ed6dd.png)
+
 ![image](https://user-images.githubusercontent.com/99061771/229416314-2033064b-961f-48d0-aac1-8e8b167a7ed0.png)
 ![image](https://user-images.githubusercontent.com/99061771/229416356-7e8518a4-2693-417f-a2f7-b4c4bf77a9a8.png)
 ![image](https://user-images.githubusercontent.com/99061771/229416493-269366e3-0039-406f-8083-b1cee016f84e.png)
