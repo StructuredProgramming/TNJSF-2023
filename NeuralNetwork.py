@@ -288,7 +288,6 @@ def weights_init(m):
     if isinstance(m, nn.Linear):
       torch.nn.init.kaiming_uniform_(m.weight)
     
-#Plan to run twelve versions and examine the loss: 22->720, 22->360, 22->180, 22->90, 36->720, 36->360, 36->180, 36->90, 60->720, 60->360, 60->180, 60->90, this will determine which weights will be used for the Neural Network
 class VAE(nn.Module):
     def __init__(self, z_dim):
         super(VAE, self).__init__()
@@ -355,7 +354,7 @@ class VAE(nn.Module):
         mu, logvar = self.encoder(x)
         z = self.sampling(mu, logvar)
         return self.decoder(z), mu, logvar
-#Will test 9 different values: 3000, 1536, 1000, 768, 500, 384, 192, 120, 96
+    
 class NeuralNetwork(nn.Module):
     def __init__(self, hidden_layer,latentdimensions):
         super(NeuralNetwork,self).__init__()
@@ -454,7 +453,6 @@ for epoch in range (200):
                 continue
         x=torch.tensor(x)
         y=torch.tensor(y)
-        #Fourier Descriptor extraction will depend on which VAE ends up being the best (the number of inputs needed could vary as a result)
         S=np.zeros(360, dtype='complex_')
         i=0
         for k in range(360):
