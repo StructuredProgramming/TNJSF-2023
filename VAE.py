@@ -141,7 +141,6 @@ for epoch in range(50):
                 continue
             S=np.zeros(360, dtype='complex_')
             
-            #Fourier Descriptor extraction will differ based on the VAE version
             i=0
             for k in range(360):
                 a=x[k]
